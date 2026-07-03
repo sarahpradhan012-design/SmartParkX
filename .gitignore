@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+backend/venv/
+
+# YOLO Models
+*.pt
+
+# Uploaded Videos
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Processed Videos
+backend/processed/*
+!backend/processed/.gitkeep
+
+# Reports
+backend/reports/*
+!backend/reports/.gitkeep
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
